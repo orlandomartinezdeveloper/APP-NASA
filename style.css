@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Strait&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Strait', sans-serif;
+}
+div > p, h3{
+    text-align: center;
+}
+
+img {
+    width:100%;
+}
+.card-img-top {
+    height: 12rem;
+    object-fit:cover;
+}
+
+.img-sample {
+    background-color: #666;
+}
+
+@media screen and (min-width: 768px) {
+    .marginX {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+}
